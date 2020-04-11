@@ -7,7 +7,6 @@
 		"socket.io": "^2.3.0"
 	},
 	"scripts": {
-		"test-code": "eslint *.js",
-		"test-run": "node ."
+		"test": "eslint *.js & node ."
 	}
 }
