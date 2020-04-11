@@ -35,6 +35,6 @@ jobs:
     - name: npm test
       run: |
           cd server
-          npm start
+          npm test
       env:
         CI: true
