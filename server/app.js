@@ -1,4 +1,5 @@
 "use strict";
 
-console.log("Server app started...");
+if(1)
+     console.log("Server app started...");
 
