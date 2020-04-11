@@ -32,13 +32,9 @@ jobs:
       run: |
           cd server
           npm run build --if-present
-    - name: npm test code
+    - name: npm test
       run: |
           cd server
-          npm test-code
-    - name: npm test run
-      run: |
-          cd server
-          npm test-run
+          npm test
       env:
         CI: true
