@@ -3,5 +3,5 @@
 | Technology | Version |
 |:----------:|:-------:|
 |     NPM    |  6.14.4 |
-|   NodeJS   | 11.10.1 |
+|   NodeJS   | 12.16.2 |
 |  Socket.IO |  2.3.0  |
