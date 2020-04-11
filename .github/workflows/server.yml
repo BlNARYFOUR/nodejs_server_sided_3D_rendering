@@ -35,7 +35,7 @@ jobs:
     - name: npm test
       run: |
           cd server
-          eslint *.js
+          ./node_modules/.bin/eslint *.js
           npm test
       env:
         CI: true
