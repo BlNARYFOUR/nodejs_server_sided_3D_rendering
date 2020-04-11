@@ -8,6 +8,6 @@
 	},
 	"scripts": {
 		"start": "eslint project/. --ext .js && node .",
-		"test": "eslint project/. --ext .js && node ."
+		"test": "eslint project/. --ext .js"
 	}
 }
