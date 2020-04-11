@@ -4,5 +4,8 @@
 	"main": "app.js",
 	"dependencies": {
 		"socket.io": "^2.3.0"
+	},
+	"scripts": {
+		"test": "node ."
 	}
 }
