@@ -2,3 +2,5 @@
 client/js/env.js
 
 .idea/
+
+server/node_modules/
