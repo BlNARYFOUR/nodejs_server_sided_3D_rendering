@@ -4,10 +4,10 @@
 	"main": "project/app.js",
 	"dependencies": {
 		"eslint": "^6.8.0",
-		"socket.io": "^2.3.0"
+		"websocket": "^1.0.31"
 	},
 	"scripts": {
 		"start": "eslint project/. --ext .js && node .",
-		"test": "eslint project/. --ext .js"
+		"test": "eslint project/. --ext .js && node ."
 	}
 }

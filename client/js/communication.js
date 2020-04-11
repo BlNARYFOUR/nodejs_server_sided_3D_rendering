@@ -12,10 +12,8 @@ function onWSOpen(e) {
 
     if(ws.readyState === ws.OPEN) {
         ws.send(JSON.stringify({
-            address: "msega.actions.connect",
-            data: {
-                name: ENV.name
-            }
+            address: "actions.connect",
+            data: {}
         }));
     }
 }
