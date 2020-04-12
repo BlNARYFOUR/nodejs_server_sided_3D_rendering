@@ -7,3 +7,4 @@
 |    Socket.IO   |  2.3.0  |
 |     ESLint     |  6.8.0  |
 | Node WebSocket |   TODO  |
+|  three.js  |   115   |
