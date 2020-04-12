@@ -1,15 +1,19 @@
 const CONF = require("./utils/config");
+const HELPER = require("./utils/helper");
 const WebSocketServer = require("websocket").server;
-const HTTP = require("http");
+const EXPRESS = require("express");
 
-const SERVER = HTTP.createServer(() => {});
-SERVER.listen(CONF.HTTP_PORT, () => {
+const APP = new EXPRESS();
+
+const SERVER = APP.listen(CONF.HTTP_PORT, () => {
     console.log((new Date()) + " Server is listening on port " + CONF.HTTP_PORT);
 });
 
 const SOCKET_SERVER = new WebSocketServer({
     httpServer: SERVER
 });
+
+APP.use(EXPRESS.static(HELPER.getParentFolder(__dirname) + "/public"));
 
 let nextID = 0;
 const CLIENTS = [];

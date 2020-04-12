@@ -1,6 +1,6 @@
 
-client/js/env.js
+project/public/js/env.js
 
 .idea/
 
-server/node_modules/
+project/node_modules/

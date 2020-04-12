@@ -1,13 +1,14 @@
 {
 	"name": "simple-shooter",
 	"version": "0.0.1",
-	"main": "project/app.js",
+	"main": "server/app.js",
 	"dependencies": {
 		"eslint": "^6.8.0",
+		"express": "^4.17.1",
 		"websocket": "^1.0.31"
 	},
 	"scripts": {
-		"start": "eslint project/. --ext .js && node .",
-		"test": "eslint project/. --ext .js"
+		"start": "eslint server/. --ext .js && node .",
+		"test": "eslint server/. --ext .js"
 	}
 }

@@ -6676,9 +6676,9 @@
 		for ( i = 0, j = axes.length - 3; i <= j; i += 3 ) {
 
 			_testAxis.fromArray( axes, i );
-			// project the aabb onto the seperating axis
+			// server the aabb onto the seperating axis
 			var r = extents.x * Math.abs( _testAxis.x ) + extents.y * Math.abs( _testAxis.y ) + extents.z * Math.abs( _testAxis.z );
-			// project all 3 vertices of the triangle onto the seperating axis
+			// server all 3 vertices of the triangle onto the seperating axis
 			var p0 = v0.dot( _testAxis );
 			var p1 = v1.dot( _testAxis );
 			var p2 = v2.dot( _testAxis );
