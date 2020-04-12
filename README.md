@@ -1,3 +1,5 @@
+![](https://github.com/BlNARYFOUR/nodejs_server_sided_3D_rendering/workflows/Server%20CI/badge.svg)
+
 <h1>NodeJS Server Sided 3D Rendering</h1>
 
 |   Technology   | Version |
