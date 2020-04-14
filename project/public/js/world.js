@@ -176,6 +176,61 @@ const WORLD = [
         position: new THREE.Vector3(-18, 0, -66),
         rotation: new THREE.Euler(0, Math.PI / 2, 0, "XYZ")
     },
+    {
+        model: MODELS.ext_wall,
+        position: new THREE.Vector3(-12, 0, 0),
+        rotation: new THREE.Euler(0, -Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.wall,
+        position: new THREE.Vector3(-12, 0, -6),
+        rotation: new THREE.Euler(0, Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.ext_wall,
+        position: new THREE.Vector3(-18, 0, 0),
+        rotation: new THREE.Euler(0, -Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.wall,
+        position: new THREE.Vector3(-18, 0, -6),
+        rotation: new THREE.Euler(0, Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.ext_wall_gap_right,
+        position: new THREE.Vector3(-24, 0, 0),
+        rotation: new THREE.Euler(0, -Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.wall_gap_left,
+        position: new THREE.Vector3(-24, 0, -6),
+        rotation: new THREE.Euler(0, Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.ext_wall_gap_left,
+        position: new THREE.Vector3(-30, 0, 0),
+        rotation: new THREE.Euler(0, -Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.wall_gap_right,
+        position: new THREE.Vector3(-30, 0, -6),
+        rotation: new THREE.Euler(0, Math.PI / 2, 0, "XYZ")
+    },
+    {
+        model: MODELS.door_large,
+        position: new THREE.Vector3(-28.75, 2.75, -3.375),
+        rotation: new THREE.Euler(0, -Math.PI / 8, 0, "XYZ")
+    },
+    {
+        model: MODELS.door_hinge,
+        position: new THREE.Vector3(-28.8, 1.65, -3.375),
+        rotation: new THREE.Euler(0, 0, 0, "XYZ")
+    },
+    {
+        model: MODELS.door_hinge,
+        position: new THREE.Vector3(-28.8, 3.65, -3.375),
+        rotation: new THREE.Euler(0, 0, 0, "XYZ")
+    },
 ];
 
 const WORLD_LOADS = [];

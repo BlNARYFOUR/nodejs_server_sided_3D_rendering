@@ -17,6 +17,18 @@ const MODELS = {
         name: "corner_out",
         src: "models/medieval_labyrinth_-_corner_out"
     },
+    door: {
+        name: "door",
+        src: "models/medieval_labyrinth_-_door"
+    },
+    door_hinge: {
+        name: "door_hinge",
+        src: "models/medieval_labyrinth_-_door_hinge"
+    },
+    door_large: {
+        name: "door_large",
+        src: "models/medieval_labyrinth_-_door_large"
+    },
     ext_wall: {
         name: "ext_wall",
         src: "models/medieval_labyrinth_-_ext_wall"
@@ -29,10 +41,26 @@ const MODELS = {
         name: "ext_wall_corner_out",
         src: "models/medieval_labyrinth_-_ext_wall_corner_out"
     },
+    ext_wall_gap_left: {
+        name: "ext_wall_gap_left",
+        src: "models/medieval_labyrinth_-_ext_wall_gap_left"
+    },
+    ext_wall_gap_right: {
+        name: "ext_wall_gap_right",
+        src: "models/medieval_labyrinth_-_ext_wall_gap_right"
+    },
     wall: {
         name: "wall",
         src: "models/medieval_labyrinth_-_wall"
-    }
+    },
+    wall_gap_left: {
+        name: "wall_gap_left",
+        src: "models/medieval_labyrinth_-_wall_gap_left"
+    },
+    wall_gap_right: {
+        name: "wall_gap_right",
+        src: "models/medieval_labyrinth_-_wall_gap_right"
+    },
 };
 
 const LOADED_MODELS = [];
